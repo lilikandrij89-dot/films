@@ -1,0 +1,82 @@
+@import '@fontsource/pushster';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*font-family: 'Pushster', system-ui;*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+img{
+    width: 100%;
+    
+}
+.app{
+    background-color: white;
+    width: 100%;
+    border-bottom: 1.5px solid silver;
+
+}
+
+header .logo{
+    font-family: 'Pushster', system-ui;
+    display: inline-block;
+    background: #f9f9f9;
+    font-size: 25px;
+    width: 100%;
+    font-weight: bolder;
+    text-align: center;
+    padding: 20px 0;
+    color: #c73e2e;
+}
+
+
+header .fav-films {
+    background: #c73e2e;
+}
+header .fav-films ul{
+    list-style: none;
+    margin: 0;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+header .fav-films ul li {
+    margin: 0 10px;
+
+}
+
+header .fav-films ul img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+}
+
+
+header .fav-films ul span{
+    display: block;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+main.films{
+    width: 100%;
+    padding: 20px;
+}
+.film
+{
+    margin-bottom: 10px;
+}
+.film img {
+    width: 50px;
+    height: 50px;
+}
+.film h2 {
+    display: inline;
+}
+.film button {
+    float: right;
+}
